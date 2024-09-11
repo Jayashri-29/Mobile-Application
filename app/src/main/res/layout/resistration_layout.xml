@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/registration">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="480dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/registrastionback"
+        android:alpha="0.7">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtlabel"
+            android:text="Registration Form"
+            android:textStyle="bold"
+            android:textColor="#80032B"
+            android:textSize="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="90dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtname"
+            android:drawableLeft="@drawable/ic_name"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/txtlabel"
+            android:hint="Enter user Name"
+
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtemail"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/edtname"
+            android:hint="Enter user Email"
+            android:textSize="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtMoNo"
+            android:drawableLeft="@drawable/ic_mono"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/edtemail"
+            android:hint="Enter Mobile Number"
+            android:inputType="number"
+            android:textSize="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtpwd"
+            android:layout_marginLeft="54dp"
+            android:layout_below="@+id/edtMoNo"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textSize="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtCpwd"
+            android:drawableLeft="@drawable/ic_password"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/edtpwd"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:textSize="15dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btnsubmit"
+            android:layout_below="@id/edtCpwd"
+            android:textSize="18dp"
+            android:textColor="#052005"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonback"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/txtALogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnsubmit"
+            android:text="Already Register? Sign In"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

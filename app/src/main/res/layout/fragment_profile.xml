@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/registration">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilecircular"
+        android:layout_width="115dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/profile"
+        android:layout_centerHorizontal="true"
+        />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profilecircular"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/registrastionback"
+
+        >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAdminName"
+                android:text="Maa Krushi Kendra"
+                android:textSize="18dp"
+                android:background="@drawable/textback"
+                android:drawableLeft="@drawable/ic_profile"
+                android:drawablePadding="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#fff"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAdminemail"
+                android:layout_below="@+id/txtAdminName"
+                android:layout_marginTop="8dp"
+                android:text="maakrushi8@gmail.com"
+                android:textColor="#fff"
+
+                android:background="@drawable/textback"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="18dp"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAdmincontact"
+                android:layout_below="@+id/txtAdminemail"
+                android:layout_marginTop="8dp"
+                android:text="7709746546"
+                android:inputType="number"
+                android:textColor="#fff"
+                android:drawableLeft="@drawable/ic_mono"
+                android:drawablePadding="18dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/textback"
+                android:textSize="18dp"
+                android:padding="10dp"
+                />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAdminadd"
+            android:layout_below="@+id/txtAdmincontact"
+            android:text="Datala-443102"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_address"
+            android:padding="10dp"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="18dp"
+            android:background="@drawable/textback"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

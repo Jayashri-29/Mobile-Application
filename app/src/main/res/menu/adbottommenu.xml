@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/adhome"
+        android:icon="@drawable/ic_home"
+        android:title="Home"></item>
+
+
+    <item android:id="@+id/adproduct"
+        android:icon="@drawable/ic_product"
+        android:title="AddProduct"></item>
+    <item android:id="@+id/adequipment"
+        android:icon="@drawable/ic_equipments"
+        android:title="AddEquipment"></item>
+
+    <item android:id="@+id/adbookings"
+        android:icon="@drawable/ic_bookings"
+        android:title="Bookings"/>
+
+    <item android:id="@+id/adprofile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"></item>
+
+
+
+</menu>

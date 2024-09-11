@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/registration">
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="470dp"
+        android:background="@drawable/registrastionback"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:src="@drawable/cotton"
+        android:id="@+id/img_product"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtgallery"
+            android:drawableLeft="@drawable/ic_add_photo"
+            android:layout_toRightOf="@id/img_product"
+            android:layout_marginTop="102dp"
+            />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtproductname"
+        android:layout_below="@id/img_product"
+        android:textSize="25dp"
+        android:hint="Add Product Name"
+        android:textColor="#C51162"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+            <EditText
+                android:id="@+id/edtMnfDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtproductname"
+                android:hint="Enter Manufacture Date"
+                android:textColor="#C51162"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtexpdate"
+                android:hint="Enter Expiring Date"
+                android:textSize="18dp"
+                android:textColor="#C51162"
+                android:layout_below="@id/edtMnfDate"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+            <EditText
+                android:id="@+id/edtprobrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter brand"
+                android:textColor="#C51162"
+                android:textSize="18dp"
+                android:layout_below="@id/edtexpdate"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtPprice"
+                android:hint="Enter Product Price"
+                android:textSize="18dp"
+                android:textColor="#C51162"
+                android:layout_below="@+id/edtprobrand"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnaddproduct"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtPprice"
+        android:background="@drawable/userbutton"
+        android:text="Add"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

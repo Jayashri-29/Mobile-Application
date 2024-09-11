@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/colay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registration"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilecircular"
+        android:layout_width="96dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="-150dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_anchor="@id/relay"
+        app:layout_anchorGravity="center_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/relay"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:alpha="0.7"
+        android:background="@drawable/registrastionback"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="80dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtlogin"
+            android:text="LogIn"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="110dp"
+            android:textColor="#041101"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtlogemail"
+            android:layout_below="@+id/txtlogin"
+            android:layout_marginTop="30dp"
+            android:hint="Enter User Email"
+            android:textColor="#000"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtlogpsw"
+            android:layout_below="@+id/edtlogemail"
+            android:layout_marginTop="5dp"
+            android:hint="Enter User Password"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:drawableLeft="@drawable/ic_password"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LogIn"
+            android:id="@+id/btnlogin"
+            android:layout_below="@+id/edtlogpsw"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonback"
+            android:layout_marginTop="30dp"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

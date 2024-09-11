@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/activity_farmers_home.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/addbottomnavigation_layout.xml" value="0.1" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/adhomelayout.xml" value="0.1" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/app_bar_farmers_home.xml" value="0.1" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/booking_item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/cart_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/content_farmers_home.xml" value="0.1" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/fragment_news.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/fragment_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/fragment_products.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/fragment_profile.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/home_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/home_recycler_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/lay_admin_pro_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/lay_book_room.xml" value="0.1" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/layout_activity_placeorder.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/layout_prod_item_update.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/nav_fragment_cart.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/nav_fragment_order.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/nav_fragment_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/nav_header_farmers_home.xml" value="0.1" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/nav_recycler_product_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/order_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/layout/showdetailorderlayout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/menu/activity_farmers_home_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/menu/adbottommenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/menu/farmers_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CCM/Desktop/Android project/final project/FarmersFriend/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

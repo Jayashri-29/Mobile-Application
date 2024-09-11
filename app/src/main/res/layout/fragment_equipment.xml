@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/registration">
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="470dp"
+        android:background="@drawable/registrastionback"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+          <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/spray_pump"
+            android:id="@+id/img_spray"
+              android:layout_marginTop="20dp"
+              android:layout_centerHorizontal="true"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtgalleryEqui"
+            android:drawableLeft="@drawable/ic_add_photo"
+            android:layout_toRightOf="@id/img_spray"
+            android:layout_marginTop="102dp"
+            />
+          <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edteqiname"
+            android:layout_below="@id/img_spray"
+            android:textSize="25dp"
+            android:hint="Add Equipment Name"
+              android:textColor="#C51162"
+              android:textStyle="bold"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+           />
+
+
+            <EditText
+                android:id="@+id/edteqibrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edteqiname"
+                android:hint="Enter brand"
+                android:textColor="#C51162"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtrent"
+                android:layout_below="@id/edteqibrand"
+                android:hint="Enter rent"
+                android:textColor="#C51162"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edteqiprice"
+                android:layout_below="@id/edtrent"
+                android:hint="Enter price"
+                android:textColor="#C51162"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnaddeqipment"
+        android:layout_below="@id/edteqiprice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/userbutton"
+        android:text="Add"
+        android:textSize="25dp"
+        android:textColor="#fff" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

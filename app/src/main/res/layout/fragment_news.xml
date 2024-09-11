@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/registrastionback"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtnews"
+        android:text="News"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:drawableRight="@drawable/ic_addnews"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtnewstitle"
+        android:hint="Title"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtnews"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtsubtitle"
+        android:layout_below="@id/edtnewstitle"
+        android:hint="Subtitle"
+        android:textSize="22dp"
+        android:textColor="#000"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/imgnews"
+        android:layout_below="@id/edtsubtitle"
+        android:src="@drawable/news"
+        android:layout_marginLeft="10dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtContent"
+        android:hint="Content"
+        android:layout_below="@id/imgnews"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp "
+        />
+
+
+</RelativeLayout>

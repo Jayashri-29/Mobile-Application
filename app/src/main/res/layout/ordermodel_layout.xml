@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_date"
+        android:text="Order Date"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/om_txt_date"
+        android:layout_toRightOf="@id/txt_date"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/om_txt_Cname"
+        android:layout_below="@id/txt_date"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/om_txt_Address"
+        android:layout_below="@id/om_txt_Cname"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/om_txt_City"
+        android:layout_below="@id/om_txt_Address"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/om_txt_pincode"
+        android:layout_below="@id/om_txt_City"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+
+
+</RelativeLayout>
